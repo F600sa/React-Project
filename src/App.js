@@ -9,7 +9,7 @@ import Contact from './component/Home/Contact'
 import Ticket from './component/Ticket'
 import CreateCard from './component/company/CreateCard';
 import GetCard from './component/company/GetCard';
-import CURD from './component/company/CURD.JS';
+// import CURD from './component/company/CURD.JS';
 import Getcon from './component/company/Getcon';
 function App() {
   return (<>
@@ -24,7 +24,7 @@ function App() {
       <Route path='Ticket' element={<Ticket/>}></Route>
       <Route path='CreateCard'element={<CreateCard/>}></Route>
       <Route path='GetCard' element={<GetCard/>}></Route>
-      <Route path='CURD' element={<CURD/>}></Route>
+      {/* <Route path='CURD' element={<CURD/>}></Route> */}
       <Route path='Getcon'element={<Getcon/>}></Route>
       
     </Routes>
